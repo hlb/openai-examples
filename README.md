@@ -1,1 +1,33 @@
-# openai-examples
+# campbell: performance review generator
+
+## Install
+
+- Install [pyenv](https://github.com/pyenv/pyenv)
+
+    ```
+    brew update
+    brew install pyenv
+    ```
+
+- Install Python if you haven't done so
+    ```
+    pyenv install 3.10.8 (or any newer version)
+    pyenv global 3.10.8
+
+- get OpenAI API key: 
+
+    ```
+    export OPENAI_API_KEY="{YOUR_API_KEY}"
+    ```
+
+- Install Python modules: 
+
+    ```
+    pip install -r requirements.txt
+    ```
+
+- Run:
+
+    ```
+    streamlit run streamlit-openai-restaurant.py
+    ```
