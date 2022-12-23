@@ -1,6 +1,6 @@
-# campbell: performance review generator
+# OpenAI examples
 
-## Install
+## Restaurant Recommendation
 
 - Install [pyenv](https://github.com/pyenv/pyenv)
 
@@ -31,3 +31,10 @@
     ```
     streamlit run streamlit-openai-restaurant.py
     ```
+
+## Google Sheets
+
+- Open Extensions > Apps Script
+- Paste [Apps Script](gpt3-spreadsheet-apps-script.js
+) and add your OpenAI API key
+- Reload
